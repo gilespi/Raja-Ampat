@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="dist/simple-lightbox.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    
+
+	<div id="header">
+        <div class="container">
+            
+            <div class="logo">
+                
+                <a href="index.html"><img src="SVG/logo.png" alt="logo"></a>
+            
+            </div><!-- end .logo -->
+            
+             <nav id="nav">
+                
+                <div class="container">
+                    
+                    <ul id="menu-list">
+                
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="islands.html">Islands</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    
+                    </ul>
+                
+                    <a href="#" id="resp-menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    
+                    </div><!-- end .container -->
+            
+            </nav><!-- end .nav -->
+            
+		<video id="video" autoplay muted loop poster="#">
+			<source src="video/raja_ampat.mp4" type="video/mp4">
+		</video>
+	
+		<h1>RAJA AMPAT</h1>
+        <p>Beautiful places in the world</p>
+        
+        </div>
+             
+  </div><!-- end #header --> 
+    
+    
+   <div class="header">
+       
+  <h2>RAJA AMPAT REGENCY</h2>
+       
+  <p>Beautiful places in the world</p>
+</div>
+
+<div class="row"> 
+    
+  <div class="column">
+      
+    <a href="gallery/sharks.jpg" class="big">
+    <img src="gallery/sharks.jpg" alt="" title="Sharks"></a>
+
+    <a href="gallery/coral.jpg" class="big"><img src="gallery/coral.jpg" alt="" title="Coral"></a>
+      
+    <a href="gallery/kri_island.jpg" class="big"><img src="gallery/kri_island.jpg" alt="Kri island" title="Kri island"></a>
+      
+    <a href="gallery/night_at_raja_ampat.jpg" class="big"><img src="gallery/night_at_raja_ampat.jpg" alt="Night at Raja mapat" title="Night at Raja ampat"></a>
+                                                                    
+  </div><!-- end .column -->
+                                                                      
+  <div class="column">
+                 
+    <a href="gallery/gam_island.jpg" class="big"><img src="gallery/gam_island.jpg" alt="Gam island" title="Gam Ghi island"></a>
+      
+    <a href="gallery/fish_on_coral.jpg" class="big"><img src="gallery/fish_on_coral.jpg" alt="Fish on coral" title="Fish on coral"></a>
+      
+    <a href="gallery/raja_diving.jpg" class="big"><img src="gallery/raja_diving.jpg" alt="Raja ampat diving" title="Raja ampat diving"></a>
+      
+    <a href="gallery/diving_raja_ampat.jpg" class="big"><img src="gallery/diving_raja_ampat.jpg" alt="Diving" title="Diving Raja ampat"></a>
+                                                                   
+  </div><!-- end .column -->
+    
+  <div class="column">
+                     
+    <a href="gallery/manta-raja-ampat.jpg" class="big"><img src="gallery/manta-raja-ampat.jpg" alt="manta raja ampat" title="Manta Raja ampat"></a>
+      
+    <a href="gallery/fishes.jpg" class="big"><img src="gallery/fishes.jpg" alt="fishes" title="Fishes"></a>
+      
+    <a href="gallery/raja_ampat_sunset.jpg" class="big"><img src="gallery/raja_ampat_sunset.jpg" alt="Sunset at Raja ampat" title="Raja ampat sunset"></a>
+      
+    <a href="gallery/sunset_raja_ampat.jpg" class="big"><img src="gallery/sunset_raja_ampat.jpg" alt="sunset Raja ampat" title="Sunset at Raja ampat"></a>
+    
+  </div><!-- end .column -->
+    
+  <div class="column">
+      
+    <a href="gallery/west_papua_paradise.jpg" class="big"><img src="gallery/west_papua_paradise.jpg" alt="image1" title="West papua paradise"></a>
+      
+    <a href="gallery/sardine_reef.jpg" class="big"><img src="gallery/sardine_reef.jpg" alt="sardine reef" title="Sardine reef"></a>
+      
+    <a href="gallery/women_swimming.jpg" class="big"><img src="gallery/women_swimming.jpg" alt="Woman swimming" title="Woman swimming"></a>
+      
+    <a href="gallery/woman_snorkeling.jpg" class="big"><img src="gallery/woman_snorkeling.jpg" alt="Manta Raja ampat" title="Snorkeling"></a>
+    
+  </div><!-- end .column -->
+    
+</div><!-- end .header -->
+    
+     <footer id="footer">
+             <div class="container">
+                <img src="SVG/logo.png" alt="logo">
+			    <p>Copyright &copy; Gilespi</p>
+                 
+            </div><!-- end .container -->
+            
+            <div class="terms">
+                
+                <p>Privacy policy</p>
+                <p>Terms and Conditions</p>
+                <p>Terms of use</p>
+                 
+		    </div><!-- end .text -->
+        
+            <div class="socials">
+                <p>Follow us on</p>
+                <a href="#" class="fa fa-facebook fa-2x"></a>
+                <a href="#" class="fa fa-twitter fa-2x"></a>
+                <a href="#" class="fa fa-google fa-2x"></a>
+                <a href="#" class="fa fa-linkedin fa-2x"></a>
+        
+        </div>
+            
+   </footer><!-- end #footer -->
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/simple-lightbox.jquery.min.js"></script>
+
+      <script>
+	
+	var dugme = document.querySelector("#resp-menu");
+	var navigacija = document.querySelector("#menu-list")
+	
+	function prikazi_nav() {
+		navigacija.classList.toggle("enabled");
+	}
+
+	dugme.onclick = function() { prikazi_nav() }
+    
+
+  $(function(){
+    var column = $('.column a').simpleLightbox({navText:    ['&lsaquo;','&rsaquo;']});
+  });
+
+    </script>
+    
+
+
+</body>
+</html>
